@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes  } from 'react-router-dom';
 import Login from '../src/Pages/Login/Login';
 import Signup from '../src/Pages/Signup/Signup';
 import CreateTeam from '../src/Pages/CreateTeam/CreateTeam';
