@@ -8,11 +8,11 @@ const Navbar = () => {
     <div>
         <nav>
           <ul>
-            <li className="left"><Link to='pwi_sggw_zad04/'>Home</Link></li>
-            <li><Link to='pwi_sggw_zad04/CreateTeam'>Create Team</Link></li>
-            <li><Link to='pwi_sggw_zad04/MyTeams'>My Teams</Link></li>
-            <li className="right"><Link to='pwi_sggw_zad04/Login'>Login</Link></li>
-            <li><Link to='pwi_sggw_zad04/Signup'>Sign up</Link></li>
+            <li className="left"><Link to='/'>Home</Link></li>
+            <li><Link to='/CreateTeam'>Create Team</Link></li>
+            <li><Link to='/MyTeams'>My Teams</Link></li>
+            <li className="right"><Link to='/Login'>Login</Link></li>
+            <li><Link to='/Signup'>Sign up</Link></li>
           </ul>
         </nav>
     </div>

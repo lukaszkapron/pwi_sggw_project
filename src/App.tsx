@@ -14,10 +14,10 @@ function App() {
       <Navbar />   
           <div>
         <Routes>
-          <Route path='/pwi_sggw_zad04/CreateTeam' element={<CreateTeam />}></Route>
-          <Route path='/pwi_sggw_zad04/MyTeams' element={<MyTeams />}></Route>
-          <Route path='/pwi_sggw_zad04/Login' element={<Login />}></Route>
-          <Route path='/pwi_sggw_zad04/Signup' element={<Signup />}></Route>
+          <Route path='/CreateTeam' element={<CreateTeam />}></Route>
+          <Route path='/MyTeams' element={<MyTeams />}></Route>
+          <Route path='/Login' element={<Login />}></Route>
+          <Route path='/Signup' element={<Signup />}></Route>
         </Routes>
          </div>
         <Footer />
