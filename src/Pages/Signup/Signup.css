@@ -1,0 +1,101 @@
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+}
+
+.signup-form .content {
+    padding: 35px;
+    text-align: center;
+}
+
+.signup-form .input-field {
+    padding: 12px 5px;
+}
+
+.signup-form .input-field input {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0px;
+    border-bottom: 1px solid #747474;
+    outline: none;
+    transition: 0.5s;
+}
+
+.signup-form .input-field input::placeholder {
+    text-transform: uppercase;
+}
+
+.signup-form a.link {
+    text-decoration: none;
+    color: #747474;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.signup-form button {
+    width: 80%;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #6d8ef0;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+
+.signup-form button:hover {
+    background: #819dee;
+}
+
+.account {
+    text-align: center;
+}
+
+.iconsList {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+h3 {
+    font-weight: 300;
+    color: #747474;
+    width: 150px;
+    text-align: center;
+    width: 90%;
+    border-bottom: 1px solid #747474;
+    line-height: 0.1em;
+}
+
+h3 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.icon {
+    padding: 5px;
+}

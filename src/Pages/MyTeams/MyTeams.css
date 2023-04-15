@@ -1,0 +1,20 @@
+.myTeams-list {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+    min-height: 80vh;
+}
+
+.myTeams-list h1 {
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.myTeams-list .content {
+    padding: 35px;
+}

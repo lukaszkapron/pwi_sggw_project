@@ -1,0 +1,43 @@
+nav {
+    background: #172349;
+    text-transform: uppercase;
+    height: 70px;   
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+    height: 100%;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li.left {
+    margin-right: auto;
+}
+
+nav ul li.right {
+    margin-left: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+
+}
+
+
+nav ul li a:hover {
+    color: #bbbbbb;
+    transition: all 0.5s;
+}
