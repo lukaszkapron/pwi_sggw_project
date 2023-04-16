@@ -37,6 +37,8 @@ const Home = () => {
           <p className='of'>Players</p>
         </div>
       </div>
+
+
     </div>
 
   )

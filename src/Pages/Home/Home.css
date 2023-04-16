@@ -78,6 +78,7 @@
     text-align: center;
 }
 
+
 /* @media only screen and (max-width: 10px) {
 
     .slide {
@@ -110,7 +111,7 @@
     .slide {
         flex-direction: column;
         justify-content: flex-start;
-        height: 70vh;
+        height: 80vh;
     }
 
     .slide .info {

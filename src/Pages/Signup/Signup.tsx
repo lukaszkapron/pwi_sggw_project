@@ -30,11 +30,11 @@ const Signup = () => {
           <h3><span>OR</span></h3>
         </div>
         <div className='iconsList'>
-          <a href='#' className='icon'><FaFacebook size={40} color={'#4267B2'} /></a>
-          <a href='#' className='icon'><FcGoogle size={40} /></a>
+          <a className='icon'><FaFacebook size={40} color={'#4267B2'} /></a>
+          <a className='icon'><FcGoogle size={40} /></a>
         </div>
         <div className='account'>
-          <a href="#" className="link">Already a user?</a>
+          <a className="link">Already a user?</a>
         </div>
       </form>
     </div>

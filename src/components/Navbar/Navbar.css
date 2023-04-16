@@ -41,3 +41,109 @@ nav ul li a:hover {
     color: #27304d;
     transition: all 0.5s;
 }
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 5px;
+    margin: 5px auto;
+    color: black;
+    background-color: black;
+}
+
+.leftHome{
+    display: none;
+}
+
+.listb{
+    display: none;
+}
+
+.listMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        width: 25px;
+        float: right;
+        margin: 10px;
+        align-self: center;
+        border: 0px;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .listb{
+        display: none;
+    }
+
+    .mobileNav{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .leftHome {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-decoration: none;
+        color: #172349;
+        font-weight: 800;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .leftHome a{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+
+    }
+    
+    .leftHome a:hover {
+        color: #27304d;
+        transition: all 0.5s;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .listMobile{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        margin: 0px;
+
+        text-transform: uppercase;
+
+        align-items:center;
+        gap:1rem;
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+            font-weight: 800;
+
+    }
+
+    .listMobile a{
+        color: black;
+        text-decoration: none;
+    }
+
+}
