@@ -6,8 +6,11 @@ import Login from '../src/Pages/Login/Login';
 import Signup from '../src/Pages/Signup/Signup';
 import CreateTeam from '../src/Pages/CreateTeam/CreateTeam';
 import Home from './Pages/Home/Home';
+import CookieConsent from "react-cookie-consent";
+
 
 function App() {
+
   return (
     <Router>
       <div>
@@ -21,6 +24,14 @@ function App() {
           </Routes>
         </div>
         <Footer />
+        <CookieConsent
+          enableDeclineButton
+          onDecline={() => {
+            alert("No way!");
+          }}
+          cookieName="cookies">
+          This wsebsite uses cookies to enhance the user experience.
+          </CookieConsent>
       </div>
     </Router>
 

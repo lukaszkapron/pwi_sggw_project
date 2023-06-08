@@ -1,5 +1,8 @@
 import './Home.css'
 import teamImg from '../Home/team.png'
+import { FaFacebook } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si'
 
 
 const Home = () => {
@@ -38,6 +41,33 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="contactUs-form">
+      <form>
+        <h1>ContactUs</h1>
+        <div className="content">
+          <div className="input-field">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div className="input-field">
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div className="input-field">
+            <textarea  placeholder="Message" className='message'/>
+          </div>
+        </div>
+        <div>
+          <button>Send</button>
+        </div>
+        <div className='or'>
+          <h3><span>OR</span></h3>
+        </div>
+        <div className='iconsList'>
+          <a className='icon'><FaFacebook size={40} color={'#4267B2'} /></a>
+          <a className='icon'><FaLinkedin size={40} color={'#0073b1'} /></a>
+          <a className='icon'><SiGmail size={40} color={'#DB4437'}/></a>
+        </div>
+      </form>
+    </div>
 
     </div>
 
