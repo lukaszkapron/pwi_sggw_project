@@ -27,6 +27,10 @@
     "NeedAccount": "Need an account?",
     "UserName": "Username",
     "ConfirmPassword": "Confirm Password",
-    "AlreadyUser": "Already A User?"
-
+    "AlreadyUser": "Already A User?",
+    "Alert": "No way!",
+    "CookiesInfo": "This wsebsite uses cookies to enhance the user experience.",
+    "CookiesButtonText": "I understand",
+    "CookiesDeclineButtonText": "I decline"
+    
 }

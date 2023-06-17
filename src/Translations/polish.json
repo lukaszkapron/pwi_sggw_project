@@ -4,7 +4,7 @@
     "Number": "SportApp w liczbach",
     "Users": "Użytkowników",
     "Teams": "Drużyn",
-    "Players": "Graczy",
+    "Players": "Zawodników",
     "Contact": "Skontaktuj się z nami",
     "Email": "Email",
     "Subject": "Temat",
@@ -27,6 +27,10 @@
     "NeedAccount": "Chcesz założyć konto?",
     "UserName": "Nazwa użytkownika",
     "ConfirmPassword": "Potwierdź hasło",
-    "AlreadyUser": "Masz już konto?"
+    "AlreadyUser": "Masz już konto?",
+    "Alert": "Nie żartuj!",
+    "CookiesInfo": "Ta strona używa ciasteczek (cookies)",
+    "CookiesButtonText": "Akceptuję",
+    "CookiesDeclineButtonText": "Odrzucam"
 
 }

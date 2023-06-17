@@ -7,10 +7,12 @@ import Signup from '../src/Pages/Signup/Signup';
 import CreateTeam from '../src/Pages/CreateTeam/CreateTeam';
 import Home from './Pages/Home/Home';
 import CookieConsent from "react-cookie-consent";
+import { useTranslation } from "react-i18next";
 
 
 function App() {
-
+  const { t } = useTranslation();
+  
   return (
     <Router>
       <div>
@@ -27,11 +29,13 @@ function App() {
         <CookieConsent
           enableDeclineButton
           onDecline={() => {
-            alert("No way!");
+            alert(t("Alert"));
           }}
-          cookieName="cookies">
-          This wsebsite uses cookies to enhance the user experience.
-          </CookieConsent>
+          cookieName="cookies"
+          buttonText={t("CookiesButtonText")}
+          declineButtonText ={t("CookiesDeclineButtonText")}>
+          {t("CookiesInfo")}
+        </CookieConsent>
       </div>
     </Router>
 
