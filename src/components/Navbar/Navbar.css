@@ -68,6 +68,25 @@ nav ul li a:hover {
     display: none;
 }
 
+.listb2{
+    display: none;
+}
+
+.listMobile2{
+    display: none;
+}
+
+select{
+    background-color: transparent;
+    border: 0px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+option{
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 480px) {
     .hamburger{
         display: block;
@@ -143,6 +162,22 @@ nav ul li a:hover {
     .listMobile a{
         color: black;
         text-decoration: none;
+    }
+    .listMobile2{
+        display: flex;
+    }
+
+    select{
+        background-color: transparent;
+        border: 0px;
+        font-weight: bold;
+        min-width: 50px;
+    }
+
+    .languageHamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

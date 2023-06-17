@@ -1,8 +1,9 @@
 import React from 'react'
 import './CreateTeam.css'
-
+import { useTranslation } from "react-i18next";
 
 const CreateTeam = () => {
+  const { t } = useTranslation();
 
   function generateRandomColor() {
     let maxVal = 0xFFFFFF;
@@ -37,31 +38,31 @@ const CreateTeam = () => {
   return (
     <div className="createTeam-form">
       <form>
-        <h1>Create Team</h1>
+        <h1>{t("CreateTeam")}</h1>
         <div className="content">
           <div className="input-field">
-            <input type="text" placeholder="Your team name*" />
+            <input type="text" placeholder={t("TeamName")} />
           </div>
           <div className="input-field">
-            <input type="text" placeholder="Your League name" />
+            <input type="text" placeholder={t("LeagueName")} />
           </div>
           <div className='input-file'>
-            <p>Select team logo </p>
+            <p>{t("Select")}</p>
             <input type="file" accept='.img,.jpg,.jpeg,.bmp,.gif,.png' onChange={handleChangeLogo} />
             <img src={file} className='imgLogo'></img>
-            <button className='deleteButton' onClick={e => setDefaultLogo(e)}>Default logo</button>
+            <button className='deleteButton' onClick={e => setDefaultLogo(e)}>{t("DefaultLogo")}</button>
           </div>
           <div className='input-color'>
-            <p>First color:</p>
+            <p>{t("FirstColor")}</p>
             <input type="color" className='color' value={color1} onChange={e => setColor1(e.target.value)} />
           </div>
           <div className='input-color'>
-            <p>Second color:</p>
+            <p>{t("SecondColor")}</p>
             <input type="color" className='color' value={color2} onChange={e => setColor2(e.target.value)} />
           </div>
         </div>
         <div>
-          <button className='buttonCreate'>Create Team</button>
+          <button className='buttonCreate'>{t("CreateTeam")}</button>
         </div>
       </form>
     </div>

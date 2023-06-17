@@ -1,12 +1,13 @@
 import "./Footer.css"
-
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
 
   return (
     <div>
         <footer>
-            Made by Łukasz Kaproń
+          {t("Footer")}
         </footer>
     </div>
   )

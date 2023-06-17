@@ -3,18 +3,22 @@ import teamImg from '../Home/team.png'
 import { FaFacebook } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si'
+import { useTranslation } from "react-i18next";
 
 
 const Home = () => {
+  
+  const { t} = useTranslation();
+
   return (
     <div>
       <div className='slide'>
         <div className='info'>
           <div className='mainText'>
-            Create a free app for tracking your sport team stats
+            {t("Create")}
           </div>
           <div className='commentText'>
-            Build your squad and manage your players and leagues
+            {t("Build")}
           </div>
         </div>
         <div className='image'>
@@ -23,43 +27,43 @@ const Home = () => {
       </div>
 
       <div className='number'>
-        <p className='numberText'>SportApp in numbers</p>
+        <p className='numberText'>{t("Number")}</p>
       </div>
       
       <div className='infos'>
         <div className='element'>
           <p className='count'>100 000</p>
-          <p className='of'>Users</p>
+          <p className='of'>{t("Users")}</p>
         </div>
         <div className='element'>
           <p className='count'>250 000</p>
-          <p className='of'>Teams</p>
+          <p className='of'>{t("Teams")}</p>
         </div>
         <div className='element'>
           <p className='count'>3 000 000</p>
-          <p className='of'>Players</p>
+          <p className='of'>{t("Players")}</p>
         </div>
       </div>
 
       <div className="contactUs-form">
       <form>
-        <h1>ContactUs</h1>
+        <h1>{t("Contact")}</h1>
         <div className="content">
           <div className="input-field">
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder={t("Email")} />
           </div>
           <div className="input-field">
-            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder={t("Subject")} />
           </div>
           <div className="input-field">
-            <textarea  placeholder="Message" className='message'/>
+            <textarea  placeholder={t("Message")} className='message'/>
           </div>
         </div>
         <div>
-          <button>Send</button>
+          <button>{t("Send")}</button>
         </div>
         <div className='or'>
-          <h3><span>OR</span></h3>
+          <h3><span>{t("Or")}</span></h3>
         </div>
         <div className='iconsList'>
           <a className='icon'><FaFacebook size={40} color={'#4267B2'} /></a>
