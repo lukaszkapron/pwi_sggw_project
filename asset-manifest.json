@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pwi_sggw_zad04/static/css/main.3fc1bda0.css",
-    "main.js": "/pwi_sggw_zad04/static/js/main.018bfae1.js",
+    "main.js": "/pwi_sggw_zad04/static/js/main.cd6a0b11.js",
     "static/media/team.png": "/pwi_sggw_zad04/static/media/team.54acdf7c0201fcebf201.png",
     "index.html": "/pwi_sggw_zad04/index.html",
     "main.3fc1bda0.css.map": "/pwi_sggw_zad04/static/css/main.3fc1bda0.css.map",
-    "main.018bfae1.js.map": "/pwi_sggw_zad04/static/js/main.018bfae1.js.map"
+    "main.cd6a0b11.js.map": "/pwi_sggw_zad04/static/js/main.cd6a0b11.js.map"
   },
   "entrypoints": [
     "static/css/main.3fc1bda0.css",
-    "static/js/main.018bfae1.js"
+    "static/js/main.cd6a0b11.js"
   ]
 }
